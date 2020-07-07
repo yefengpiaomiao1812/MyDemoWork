@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="转发"
+        android:onClick="forward"
+        android:layout_marginTop="100dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="注销"
+        android:onClick="logout"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="进入个人中心"
+        android:onClick="gotoCenter"/>
+
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:text="LiveData消息"
+    android:onClick="sendLiveData"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="调用SDK"
+        android:onClick="getSdk"/>
+</LinearLayout>
