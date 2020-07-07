@@ -41,6 +41,7 @@ public class DownLoadFile {
 
     private DownLoadListener mDownLoadListener;
 
+
     public void setOnDownLoadListener(DownLoadListener mDownLoadListener) {
         this.mDownLoadListener = mDownLoadListener;
     }
